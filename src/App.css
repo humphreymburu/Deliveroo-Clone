@@ -1,22 +1,29 @@
-.App {
-  text-align: center;
+:root {
+  --mainBlue: #F8DF45;
+  --lightBlue:#fd6c6c;
+  --mainGrey: #F9F9F8;
+  --mainBlack:#16110B;
+  --mainYellow: #f3de4b;
+  --mainSearch: #C7BF9C;
+  --mainBrown: #5C492F;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: var(--mainWhite) !important;
+  color: var(--mainBlack) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #09d3ac;
+.text-blue {
+  color: var(--mainBlue) !important;
+}
+
+.text-bright {
+  color: var(--mainWhite) !important;
 }
